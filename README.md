@@ -16,7 +16,7 @@
 
 
 :id(this id is generated after registering) 
-# After logging in copy the access token and use it in headers section of the request to access to remaining apis.
+# After logging in copy the access token and use it in headers section of the request to access the remaining apis.
 Headers Section of the request should be
 key:token
 value:access_token generated after logging in
