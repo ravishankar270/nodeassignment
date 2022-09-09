@@ -28,7 +28,7 @@ value:access_token generated after logging in
 4. Create a .env file at root-level and inside it initialize JWT_SECRET with some random string value.
 5. Finally start the server by npm start.
 
-Prerequisites
+# Prerequisites
 1. MongoDB compass should be installed.
 2. POSTMAN should be installed to test API routes.
 
