@@ -1,7 +1,7 @@
 
 # NodeJS User Authentication System.
 
-# APIS To test
+# Apis 
 1: http://localhost:3000/api/register
 
 2: http://localhost:3000/api/login/
