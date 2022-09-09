@@ -1,4 +1,3 @@
-//Imports
 const express = require('express')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
@@ -6,8 +5,7 @@ const mongoose = require('mongoose')
 const dotenv = require('dotenv')
 const router = require('./routes/index')
 
-//mongoose connection
-
+//database connection
 mongoose.connect('mongodb://localhost:27017/app', {
   useNewUrlParser: true,
   useUnifiedTopology: true
@@ -15,9 +13,7 @@ mongoose.connect('mongodb://localhost:27017/app', {
 
 
 
-//app
 const app = express()
-const port = 3000
 
 //middlewares
 app.use(bodyParser.json())
@@ -27,6 +23,6 @@ app.use('/api',router)
 
 
 //Starting the server
-app.listen(port, () => {
+app.listen(3000, () => {
     console.log(`Example app listening on port ${port}`)
 })
